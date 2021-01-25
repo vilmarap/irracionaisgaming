@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Contato | IRR</title>
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="links">
+      <a href="index.html">Inicio</a>
+      <a href="about.html">Quem Somos</a>
+      <a href="contact.html">Contato</a>
+    </div>
+
+  </header>
+
+  <body>
+    <form name="formulario">
+      <h2>Fale conosco</h2>
+
+      <p class="nome">
+        <input type="text" id="nomeid" placeholder="Nome" required="required" name="nome" />
+        <label for="nome">Nome</label>
+      </p>
+      <p class="nome">
+        <input type="text" id="telefoneid" placeholder="DDD e telefone" name="telefone" />
+        <label for="telefone">Telefone</label>
+      </p>
+      <p>
+        <input type="email" id="emailid" placeholder="E-mail" required="required" name="email" />
+        <label for="email">E-mail</label>
+      </p>
+      <p>
+        <textarea placeholder="Me envie uma mensagem!"></textarea>
+      </p>
+      <p class="submit">
+        <input type="submit" onclick="Enviar();" value="Enviar" />
+      </p>
+
+    </form>
+
+    <h3 class="contato">Contatos</h3>
+    <ul class="telefone">
+
+      <img src="img/phone.png" alt="Imagem de telefone">
+      <li><a href="tel:+55034988328517">+55 0 27 0000-0000</a></li>
+    </ul>
+
+    <div class="mail">
+      <img src="img/mail.png" alt="Imagem de um envelope de email">
+      <a href="mailto: irracionaisgaming@gmail.com">irracionaisgaming@gmail.com</a>
+    </div>
+
+  </body>
+
+  <div id="links-footer" class="links">
+
+    <img src="img/discord.png" alt="Logo do Discord">
+    <a href="https://discord.com/app" target="_blank">Discord</a>
+
+    <img src="img/youtube.png" alt="Logo do Youtube">
+    <a href="https://www.youtube.com/channel/UC7_TopIem8KbFCmiPW3QfNg/videos?view_as=subscriber"
+      target="_blank">Youtube</a>
+
+    <img src="img/facebook-logo-png-5.png" alt="Logo do Facebook">
+    <a href="https://www.facebook.com/irracionaisgaming" target="_blank">Facebook</a>
+  </div>
+  <footer id="copyright">
+    Copyright © 2021 - Vilmara Silva. Todos os direitos reservados.
+  </footer>
+
+</body>
+
+</html>
